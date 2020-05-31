@@ -47,7 +47,7 @@ $password += Get-RandomCharacters -length 2 -characters '$@#'
 
 
 $qtd = 0 
-Write-Host "`t"-NoNewline;write-host "Informe a quantidade de Senhas"-NoNewline -ForegroundColor Blue;$QTSenhas = Read-Host " "
+Write-Host "`t"-NoNewline;write-host " Informe a quantidade de Senhas"-NoNewline -ForegroundColor Blue;$QTSenhas = Read-Host " "
 Write-Host " "
 
 for($i=0;$i -lt $QTSenhas;$i++) {    
@@ -58,7 +58,7 @@ for($i=0;$i -lt $QTSenhas;$i++) {
 }
 
 Write-Host " ";
-Write-Host "`t"-NoNewline;Write-Host " S Para SAIR ou Enter para novas senhas " -NoNewline -ForegroundColor Yellow;$SAIR=Read-Host " "
+Write-Host "`t"-NoNewline;Write-Host " S Para SAIR ou Enter para novas senhas" -NoNewline -ForegroundColor Yellow;$SAIR = Read-Host " "
 
 Clear-Host " "
 
